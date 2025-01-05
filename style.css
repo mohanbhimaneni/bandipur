@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #2d572c;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2d572c;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #4c8b64;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 75%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Announcements Section */
+#announcements {
+    padding: 20px;
+    background-color: #e9f5e6;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-slider p {
+    font-size: 18px;
+    color: #2d572c;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Quick Links Section */
+#quick-links {
+    padding: 20px;
+    text-align: center;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #2d572c;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #4c8b64;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2d572c;
+    color: white;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
