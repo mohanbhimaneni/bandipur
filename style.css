@@ -30,6 +30,11 @@ p {
     justify-content: space-around;
 }
 
+.navbar img{
+    height:50px;
+    width:auto;
+}
+
 .navbar li {
     display: inline;
 }
