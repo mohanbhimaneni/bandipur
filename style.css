@@ -44,6 +44,7 @@ p {
     text-decoration: none;
     padding: 14px 20px;
     display: block;
+    border-radius:10%;
 }
 
 .navbar a:hover {
